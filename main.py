@@ -41,7 +41,9 @@ async def catch(interaction: Interaction, user: nextcord.Member = SlashOption(re
  embed.set_image(url="https://c.tenor.com/cGMxPS5GxxkAAAAd/pokemon-go.gif")
  await interaction.send(embed=embed)
 
-
+@client.command()
+async def test(ctx):
+  await ctx.reply("lol")
 
   
 #do not put any code under this # or you will get a error
