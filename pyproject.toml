@@ -8,6 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = "^3.8"
 Flask = "^2.0.3"
 nextcord = "^2.0.0-alpha.8"
+fortnite-api = "^2.5.2"
 
 [tool.poetry.dev-dependencies]
 
